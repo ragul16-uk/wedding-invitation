@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#5a1028">
+  <title>S Sivapragasam & K Jeniliya | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Splash Screen -->
+  <div id="splash">
+    <div class="splash-inner">
+      <div class="splash-ornament">❦</div>
+      <div class="splash-names">S Sivapragasam<br><span>&amp;</span><br>K Jeniliya</div>
+      <p class="splash-date">29 · 11 · 2026</p>
+      <button id="splashBtn">Open Invitation ♪</button>
+    </div>
+  </div>
+
+  <canvas id="heartsCanvas" aria-hidden="true"></canvas>
+
+  <main class="invitation">
+    <section class="hero">
+      <div class="hero-top">
+        <div class="ornament">❦</div>
+        <p class="eyebrow">Together with their families</p>
+        <h1>We Invite You</h1>
+        <p class="intro">to celebrate the wedding of</p>
+      </div>
+
+      <div class="hero-body">
+        <div class="hero-left">
+          <div class="names">
+            <div class="names-ornament">
+              <span class="names-line"></span>
+              <span class="names-diamond">◆</span>
+              <span class="names-line"></span>
+            </div>
+            <span class="name-title">S Sivapragasam</span>
+            <div class="names-ampersand-wrap">
+              <span class="names-side-line"></span>
+              <b>&amp;</b>
+              <span class="names-side-line"></span>
+            </div>
+            <span class="name-title">K Jeniliya</span>
+            <div class="names-ornament">
+              <span class="names-line"></span>
+              <span class="names-diamond">◆</span>
+              <span class="names-line"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-frame">
+          <img src="assets/couple.jpeg" alt="S Sivapragasam and K Jeniliya">
+        </div>
+      </div>
+
+      <div>
+        <p class="hero-date">29 · 11 · 2026</p>
+        <div class="scroll-hint">Scroll to explore <span>↓</span></div>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="section-line"></div>
+      <p>“Two hearts, one beautiful journey,<br>and a lifetime of memories to create.”</p>
+      <div class="section-line"></div>
+    </section>
+
+    <section class="events">
+      <p class="eyebrow">The Celebration</p>
+      <h2>Wedding Events</h2>
+
+      <div class="event-grid">
+        <article class="event-card">
+          <div class="event-icon">✦</div>
+          <p class="event-label">Reception</p>
+          <h3>28 November 2026</h3>
+          <p class="time">8:00 PM – 9:00 PM</p>
+          <p class="venue">Agamudaiyar Mahal<br>Theerthamalai</p>
+          <a class="map-btn" href="https://www.google.com/maps/search/?api=1&query=Agamudaiyar+Mahal+Theerthamalai" target="_blank" rel="noopener">
+            Open in Google Maps
+          </a>
+        </article>
+
+        <article class="event-card featured">
+          <div class="event-icon">❦</div>
+          <p class="event-label">Wedding</p>
+          <h3>29 November 2026</h3>
+          <p class="time">9:00 AM</p>
+          <p class="venue">Agamudaiyar Mahal<br>Theerthamalai</p>
+          <a class="map-btn" href="https://www.google.com/maps/search/?api=1&query=Agamudaiyar+Mahal+Theerthamalai" target="_blank" rel="noopener">
+            Open in Google Maps
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="location">
+      <p class="eyebrow">Venue</p>
+      <h2>Agamudaiyar Mahal</h2>
+      <p>Theerthamalai</p>
+      <a class="big-map-btn" href="https://www.google.com/maps/search/?api=1&query=Agamudaiyar+Mahal+Theerthamalai" target="_blank" rel="noopener">
+        <span>⌖</span> Get Directions
+      </a>
+    </section>
+
+    <section class="rsvp">
+      <div class="ornament">❦</div>
+      <p class="eyebrow">Your Presence Matters</p>
+      <h2>Join Us</h2>
+      <p>We would be delighted to have you with us<br>on our special day.</p>
+      <a class="call-btn" href="tel:+919025008688">RSVP · 9025008688</a>
+    </section>
+
+    <footer>
+      <div class="footer-names">S SIVAPRAGASAM <span>&amp;</span> K JENILIYA</div>
+      <p>29 · 11 · 2026</p>
+      <p class="made">With love, for a beautiful beginning.</p>
+    </footer>
+  </main>
+
+  <button id="musicToggle" class="music-toggle" aria-label="Toggle background music">♪</button>
+  <audio id="bgMusic" loop preload="auto">
+    <!-- Add your music file as assets/music.mp3 to enable background music. -->
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
